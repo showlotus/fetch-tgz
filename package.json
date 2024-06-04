@@ -1,0 +1,25 @@
+{
+  "name": "fetch-tgz",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "@esbuild-plugins/node-globals-polyfill": "^0.2.3",
+    "@esbuild-plugins/node-modules-polyfill": "^0.2.2",
+    "compressing": "^1.10.1",
+    "pako": "^2.1.0",
+    "rollup-plugin-node-polyfills": "^0.2.1",
+    "tar": "^7.2.0",
+    "tar-stream": "^3.1.7",
+    "urllib": "^3.25.1",
+    "vite-plugin-node-polyfills": "^0.22.0"
+  }
+}
